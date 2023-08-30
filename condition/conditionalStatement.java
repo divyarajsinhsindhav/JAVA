@@ -2,7 +2,6 @@ package condition;
 import java.util.*;
 public class conditionalStatement{
     public static void main(String[] args){
-        //Largest from 3
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter number 1: ");
         int a = scn.nextInt();
