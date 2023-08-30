@@ -19,5 +19,12 @@ public class conditionalStatement{
         else{
             System.out.println("Number c is Largest");
         }
+        /*
+        We can also use Ternery operator
+        For Example:
+        String type = (5%2==0)?"Even":"Odd";
+        Here type is var for output Statment 1 & Statment 2
+        If condition is true type="Even" else type="Odd" 
+        */
     }
 }
