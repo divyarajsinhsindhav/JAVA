@@ -21,6 +21,10 @@ public class function{
     Function Overloading:
     We can also do function overloading using data type. 
     */
+    public static float sum(float x, float y){
+        float sum = x+y;
+        return sum;
+    }
     public static int factorial(int x){
         int fact = 1;
         for (int i = 1; i <= x; i++) {
@@ -44,6 +48,7 @@ public class function{
         //int b = scn.nextInt();
         //System.out.println("Sum: " + sum(a, b)); //Arguments or Actual Parameters
         //System.out.println(sum(1, 2, 3)); //This is example of function overloading.
+        //System.out.println(sum(1.2f, 2.3f));//Function overloading using data type.
         System.out.println("Factorial: " + factorial(5));
         System.out.println("Binomial Coefficient: " + binomialCoefficient(5, 2));
     }
