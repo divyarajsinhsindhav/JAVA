@@ -1,4 +1,4 @@
-public class oddeven{
+public class oddEven{
 	public static void oddEvenNumber(int number){
 		int bitMask = 1;
 		if ((number & bitMask) == 1) {
