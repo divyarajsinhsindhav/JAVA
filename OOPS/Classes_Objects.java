@@ -13,7 +13,10 @@ public class Classes_Objects {
         Student S2 = new Student(S1);
 
         Faculty f1 = new Faculty("Devid Malan", 50, "CS");
+        Faculty.university = "Harverd University";
+        System.out.println(f1.university);
         Faculty f2 = new Faculty();
+        System.out.println(f2.university);
         // System.out.println(f1);
     }  
 }
@@ -55,6 +58,7 @@ class Faculty{
     String name;
     int age;
     String department;
+    static String university;
     Faculty(String name, int age, String department){
         this.name = name;
         this.age = age;
