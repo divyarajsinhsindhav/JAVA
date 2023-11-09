@@ -14,9 +14,9 @@ public class Classes_Objects {
 
         Faculty f1 = new Faculty("Devid Malan", 50, "CS");
         Faculty.university = "Harverd University";
-        System.out.println(f1.university);
+        // System.out.println(f1.university);
         Faculty f2 = new Faculty();
-        System.out.println(f2.university);
+        // System.out.println(f2.university);
         // System.out.println(f1);
     }  
 }
