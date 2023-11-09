@@ -7,6 +7,7 @@ public class Inheritance {
 
     public static void main(String[] args) {
         Fish Shark = new Fish();
+        // System.out.println(Shark.color);
         // Shark.eat();
 
         Dog tobby= new Dog();
@@ -34,7 +35,9 @@ class Animal{
 //This is Example of Single Level Inheritance
 class Fish extends Animal{
     int fins;
-
+    Fish(){
+        super.color = "Orange"; //This is Example of Super Keyword
+    }
     void swims(){
         System.out.println("Swim in the Water");
     }
